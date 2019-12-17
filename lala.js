@@ -1,0 +1,1 @@
+db.companies.find({partners: {$exists: false}}).pretty()
